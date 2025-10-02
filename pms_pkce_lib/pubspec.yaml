@@ -1,7 +1,7 @@
 name: pms_pkce_lib
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: "https://github.com/okpnet/PmsFlutterAuthorizeLib"
 
 environment:
   sdk: ^3.8.1
@@ -10,6 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get_it: ^8.2.0
+  http: ^1.5.0
+  openid_client: ^0.4.9+1
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:
@@ -20,7 +24,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
+#flutter:
 
   # To add assets to your package, add an assets section, like this:
   # assets:
